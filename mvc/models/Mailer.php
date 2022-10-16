@@ -25,8 +25,8 @@ class Mailer
     function sendMail($title, $content, $address, $name)
     {
         $nFrom = 'Hệ thống thi trắc nghiệm';
-        $mFrom = 'leno@cybridge.jp';//'myle10032001@gmail.com';
-        $mPass = 'bzodyooprtelnhpj';
+        $mFrom = 'myle10032001@gmail.com';// not run because mail private
+        $mPass = '160473';
         $mail             = new PHPMailer();
         $mail->isSMTP();
         // $mail->SMTPDebug  = 0;
