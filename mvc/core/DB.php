@@ -7,11 +7,11 @@ class DB
 {
     public $con;
 
-    protected $servername = "localhost";
+    protected $servername = "multiple-choice.mysql.database.azure.com";
 
-    protected $username = "root";
+    protected $username = "it19tclcdt3";
 
-    protected $password = "";
+    protected $password = "CNTTDT3@";
 
     protected $dbname = "multi";
 
